@@ -9,31 +9,31 @@
 #import "ViewController.h"
 #import <Masonry.h>
 #import <HXTool.h>
-@interface ViewController ()
-//@property (strong, nonatomic) UIView *whiteView;
+@interface ViewController ()<CALayerDelegate>
+@property (strong, nonatomic) UIView *whiteView;
 //@property (weak, nonatomic) IBOutlet UIView *one;
 //@property (weak, nonatomic) IBOutlet UIView *two;
 //@property (weak, nonatomic) IBOutlet UIView *three;
 //@property (weak, nonatomic) IBOutlet UIView *four;
-@property (weak, nonatomic) IBOutlet UIButton *button1;
-@property (weak, nonatomic) IBOutlet UIButton *button2;
+//@property (weak, nonatomic) IBOutlet UIButton *button1;
+//@property (weak, nonatomic) IBOutlet UIButton *button2;
 
 @end
 
 @implementation ViewController
 
-//- (UIView *)whiteView {
-//    if (!_whiteView) {
-//        _whiteView = [UIView new];
-//        [self.view addSubview:_whiteView];
-//        _whiteView.backgroundColor = [UIColor whiteColor];
-//        [_whiteView mas_makeConstraints:^(MASConstraintMaker *make) {
-//            make.width.height.mas_equalTo([UIScreen screenWidth]/2);
-//            make.center.mas_equalTo(self.view);
-//        }];
-//    }
-//    return _whiteView;
-//}
+- (UIView *)whiteView {
+    if (!_whiteView) {
+        _whiteView = [UIView new];
+        [self.view addSubview:_whiteView];
+        _whiteView.backgroundColor = [UIColor whiteColor];
+        [_whiteView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.width.height.mas_equalTo([UIScreen screenWidth]/2);
+            make.center.mas_equalTo(self.view);
+        }];
+    }
+    return _whiteView;
+}
 
 //- (void)addSpriteImage:(UIImage *)image WithContentRect:(CGRect)rect toLayer:(CALayer *)layer {
 //    layer.contents = (__bridge id)image.CGImage;
@@ -44,12 +44,12 @@
 //    layer.contentsRect = rect;
 //}
 
-- (void)addStretchImage:(UIImage *)image withContentCenter:(CGRect )rect toLayer:(CALayer *)layer {
-    //set image
-    layer.contents = (__bridge id)image.CGImage;
-    //set contentsCenter
-    layer.contentsCenter = rect;
-}
+//- (void)addStretchImage:(UIImage *)image withContentCenter:(CGRect )rect toLayer:(CALayer *)layer {
+//    //set image
+//    layer.contents = (__bridge id)image.CGImage;
+//    //set contentsCenter
+//    layer.contentsCenter = rect;
+//}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -83,11 +83,34 @@
      [self addSpriteImage:image WithContentRect:CGRectMake(0.5, 0.5, 0.5, 0.5) toLayer:self.four.layer];
      */
     
+    /*
     UIImage *image = [UIImage imageNamed:@"gakki2"];
     [self addStretchImage:image withContentCenter:CGRectMake(0.25, 0.25, 0.5, 0.5) toLayer:self.button1.layer];
     [self addStretchImage:image withContentCenter:CGRectMake(0.25, 0.25, 0.5, 0.5) toLayer:self.button2.layer];
+    */
     
-//    self.view.backgroundColor = [UIColor grayColor];
+    //Custom draw
+    CALayer *blueLayer = [CALayer layer];
+    blueLayer.frame = CGRectMake(50, 50, 100, 100);
+    blueLayer.backgroundColor = [UIColor blueColor].CGColor;
+    blueLayer.delegate = self;
+    
+    blueLayer.contentsScale = [UIScreen mainScreen].scale;
+    [self.whiteView.layer addSublayer:blueLayer];
+    //froce layer to redraw
+    [blueLayer display];
+    
+    self.view.backgroundColor = [UIColor grayColor];
+}
+
+- (void)drawLayer:(CALayer *)layer inContext:(CGContextRef)ctx {
+    //draw a thick red circle
+    //设置线的宽度
+    CGContextSetLineWidth(ctx, 1);
+    //stroke 划线的颜色
+    CGContextSetStrokeColorWithColor(ctx, [UIColor redColor].CGColor);
+    //在rect里面画一个椭圆型
+    CGContextStrokeEllipseInRect(ctx, layer.bounds);
 }
 
 

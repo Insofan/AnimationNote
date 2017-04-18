@@ -17,9 +17,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-//    ViewController *vc = [ViewController new];
-//    self.window.rootViewController = vc;
-//    [self.window makeKeyAndVisible];
+    ViewController *vc = [ViewController new];
+    self.window.rootViewController = vc;
+    [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
     return YES;
 }
