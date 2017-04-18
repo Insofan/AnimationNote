@@ -34,6 +34,7 @@
 
     
     //contents相关
+    /*
     UIImage *image = [UIImage imageNamed:@"1"];
     //注意(__bridge id)image.CGImage
     self.whiteView.layer.contents = (__bridge id)image.CGImage;
@@ -46,6 +47,11 @@
     self.whiteView.layer.contentsScale = image.scale;
     //不显示超出边界内容
     self.whiteView.layer.masksToBounds = true;
+    */
+    
+    //contentsRect相关
+    
+    
     
     
     // Do any additional setup after loading the view, typically from a nib.
