@@ -11,10 +11,13 @@
 #import <HXTool.h>
 @interface ViewController ()
 //@property (strong, nonatomic) UIView *whiteView;
-@property (weak, nonatomic) IBOutlet UIView *one;
-@property (weak, nonatomic) IBOutlet UIView *two;
-@property (weak, nonatomic) IBOutlet UIView *three;
-@property (weak, nonatomic) IBOutlet UIView *four;
+//@property (weak, nonatomic) IBOutlet UIView *one;
+//@property (weak, nonatomic) IBOutlet UIView *two;
+//@property (weak, nonatomic) IBOutlet UIView *three;
+//@property (weak, nonatomic) IBOutlet UIView *four;
+@property (weak, nonatomic) IBOutlet UIButton *button1;
+@property (weak, nonatomic) IBOutlet UIButton *button2;
+
 @end
 
 @implementation ViewController
@@ -32,13 +35,20 @@
 //    return _whiteView;
 //}
 
-- (void)addSpriteImage:(UIImage *)image WithContentRect:(CGRect)rect toLayer:(CALayer *)layer {
+//- (void)addSpriteImage:(UIImage *)image WithContentRect:(CGRect)rect toLayer:(CALayer *)layer {
+//    layer.contents = (__bridge id)image.CGImage;
+//    
+//    //scale contents to fit 填充方式等比例
+//    layer.contentsGravity = kCAGravityResizeAspect;
+//    //set contentsRect
+//    layer.contentsRect = rect;
+//}
+
+- (void)addStretchImage:(UIImage *)image withContentCenter:(CGRect )rect toLayer:(CALayer *)layer {
+    //set image
     layer.contents = (__bridge id)image.CGImage;
-    
-    //scale contents to fit 填充方式等比例
-    layer.contentsGravity = kCAGravityResizeAspect;
-    //set contentsRect
-    layer.contentsRect = rect;
+    //set contentsCenter
+    layer.contentsCenter = rect;
 }
 
 - (void)viewDidLoad {
@@ -61,15 +71,21 @@
     self.whiteView.layer.masksToBounds = true;
     */
     
-    //contentsRect相关
-    UIImage *image = [UIImage imageNamed:@"1"];
-    [self addSpriteImage:image WithContentRect:CGRectMake(0, 0, 0.5, 0.5) toLayer:self.one.layer];
+    /*
+     //contentsRect相关
+     UIImage *image = [UIImage imageNamed:@"1"];
+     [self addSpriteImage:image WithContentRect:CGRectMake(0, 0, 0.5, 0.5) toLayer:self.one.layer];
+     
+     [self addSpriteImage:image WithContentRect:CGRectMake(0.5, 0, 0.5, 0.5) toLayer:self.two.layer];
+     
+     [self addSpriteImage:image WithContentRect:CGRectMake(0, 0.5, 0.5, 0.5) toLayer:self.three.layer];
+     
+     [self addSpriteImage:image WithContentRect:CGRectMake(0.5, 0.5, 0.5, 0.5) toLayer:self.four.layer];
+     */
     
-    [self addSpriteImage:image WithContentRect:CGRectMake(0.5, 0, 0.5, 0.5) toLayer:self.two.layer];
-    
-    [self addSpriteImage:image WithContentRect:CGRectMake(0, 0.5, 0.5, 0.5) toLayer:self.three.layer];
-    
-    [self addSpriteImage:image WithContentRect:CGRectMake(0.5, 0.5, 0.5, 0.5) toLayer:self.four.layer];
+    UIImage *image = [UIImage imageNamed:@"gakki2"];
+    [self addStretchImage:image withContentCenter:CGRectMake(0.25, 0.25, 0.5, 0.5) toLayer:self.button1.layer];
+    [self addStretchImage:image withContentCenter:CGRectMake(0.25, 0.25, 0.5, 0.5) toLayer:self.button2.layer];
     
 //    self.view.backgroundColor = [UIColor grayColor];
 }
