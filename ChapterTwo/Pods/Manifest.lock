@@ -1,0 +1,15 @@
+PODS:
+  - HXTool (0.1.1)
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - HXTool
+  - Masonry
+
+SPEC CHECKSUMS:
+  HXTool: 2c4e3b38dd7e84d676fea48f21e923166fb6de09
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: 0008f04aca73e54ce49904a3f5e487b5f3d89d62
+
+COCOAPODS: 1.1.0.rc.3
