@@ -106,7 +106,7 @@
 - (void)drawLayer:(CALayer *)layer inContext:(CGContextRef)ctx {
     //draw a thick red circle
     //设置线的宽度
-    CGContextSetLineWidth(ctx, 1);
+    CGContextSetLineWidth(ctx, 10);
     //stroke 划线的颜色
     CGContextSetStrokeColorWithColor(ctx, [UIColor redColor].CGColor);
     //在rect里面画一个椭圆型
