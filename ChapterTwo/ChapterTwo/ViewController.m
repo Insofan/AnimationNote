@@ -10,31 +10,43 @@
 #import <Masonry.h>
 #import <HXTool.h>
 @interface ViewController ()
-@property (strong, nonatomic) UIView *whiteView;
+//@property (strong, nonatomic) UIView *whiteView;
+@property (weak, nonatomic) IBOutlet UIView *one;
+@property (weak, nonatomic) IBOutlet UIView *two;
+@property (weak, nonatomic) IBOutlet UIView *three;
+@property (weak, nonatomic) IBOutlet UIView *four;
 @end
 
 @implementation ViewController
 
-- (UIView *)whiteView {
-    if (!_whiteView) {
-        _whiteView = [UIView new];
-        [self.view addSubview:_whiteView];
-        _whiteView.backgroundColor = [UIColor whiteColor];
-        [_whiteView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.width.height.mas_equalTo([UIScreen screenWidth]/2);
-            make.center.mas_equalTo(self.view);
-        }];
-    }
-    return _whiteView;
+//- (UIView *)whiteView {
+//    if (!_whiteView) {
+//        _whiteView = [UIView new];
+//        [self.view addSubview:_whiteView];
+//        _whiteView.backgroundColor = [UIColor whiteColor];
+//        [_whiteView mas_makeConstraints:^(MASConstraintMaker *make) {
+//            make.width.height.mas_equalTo([UIScreen screenWidth]/2);
+//            make.center.mas_equalTo(self.view);
+//        }];
+//    }
+//    return _whiteView;
+//}
+
+- (void)addSpriteImage:(UIImage *)image WithContentRect:(CGRect)rect toLayer:(CALayer *)layer {
+    layer.contents = (__bridge id)image.CGImage;
+    
+    //scale contents to fit 填充方式等比例
+    layer.contentsGravity = kCAGravityResizeAspect;
+    //set contentsRect
+    layer.contentsRect = rect;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self whiteView];
-
     
     //contents相关
     /*
+    [self whiteView];
     UIImage *image = [UIImage imageNamed:@"1"];
     //注意(__bridge id)image.CGImage
     self.whiteView.layer.contents = (__bridge id)image.CGImage;
@@ -50,12 +62,16 @@
     */
     
     //contentsRect相关
+    UIImage *image = [UIImage imageNamed:@"1"];
+    [self addSpriteImage:image WithContentRect:CGRectMake(0, 0, 0.5, 0.5) toLayer:self.one.layer];
     
+    [self addSpriteImage:image WithContentRect:CGRectMake(0.5, 0, 0.5, 0.5) toLayer:self.two.layer];
     
+    [self addSpriteImage:image WithContentRect:CGRectMake(0, 0.5, 0.5, 0.5) toLayer:self.three.layer];
     
+    [self addSpriteImage:image WithContentRect:CGRectMake(0.5, 0.5, 0.5, 0.5) toLayer:self.four.layer];
     
-    // Do any additional setup after loading the view, typically from a nib.
-    self.view.backgroundColor = [UIColor grayColor];
+//    self.view.backgroundColor = [UIColor grayColor];
 }
 
 
