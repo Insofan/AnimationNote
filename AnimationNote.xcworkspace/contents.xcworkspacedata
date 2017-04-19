@@ -5,6 +5,85 @@
       location = "container:"
       name = "ChapterFour">
       <Group
+         location = "group:ChapterFour/LayerMask"
+         name = "LayerMask">
+         <Group
+            location = "group:LayerMask"
+            name = "LayerMask">
+            <FileRef
+               location = "group:AppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <Group
+               location = "group:Assets.xcassets"
+               name = "Assets.xcassets">
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Cone.imageset"
+                  name = "Cone.imageset">
+                  <FileRef
+                     location = "group:Cone.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Cone@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <Group
+                  location = "group:Igloo.imageset"
+                  name = "Igloo.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Igloo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Igloo@2x.png">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:Base.lproj"
+               name = "Base.lproj">
+               <FileRef
+                  location = "group:LaunchScreen.storyboard">
+               </FileRef>
+               <FileRef
+                  location = "group:Main.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:LayerMask.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
          location = "group:ChapterFour/ShadowPath"
          name = "ShadowPath">
          <Group
