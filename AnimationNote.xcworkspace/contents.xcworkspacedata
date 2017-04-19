@@ -5,6 +5,404 @@
       location = "container:"
       name = "ChapterFour">
       <Group
+         location = "group:ChapterFour/GroupOpacity"
+         name = "GroupOpacity">
+         <Group
+            location = "group:GroupOpacity"
+            name = "GroupOpacity">
+            <FileRef
+               location = "group:AppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <Group
+               location = "group:Assets.xcassets"
+               name = "Assets.xcassets">
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:Base.lproj"
+               name = "Base.lproj">
+               <FileRef
+                  location = "group:LaunchScreen.storyboard">
+               </FileRef>
+               <FileRef
+                  location = "group:Main.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:GroupOpacity.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:GroupOpacity.xcworkspace">
+         </FileRef>
+         <FileRef
+            location = "group:Podfile">
+         </FileRef>
+         <FileRef
+            location = "group:Podfile.lock">
+         </FileRef>
+         <Group
+            location = "group:Pods"
+            name = "Pods">
+            <Group
+               location = "group:Headers"
+               name = "Headers">
+               <Group
+                  location = "group:Private"
+                  name = "Private">
+                  <Group
+                     location = "group:HXTool"
+                     name = "HXTool">
+                     <FileRef
+                        location = "group:HXButtonTool.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:HXColorTool.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:HXScreenTool.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:HXTool.h">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Masonry"
+                     name = "Masonry">
+                     <FileRef
+                        location = "group:MASCompositeConstraint.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MASConstraint+Private.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MASConstraint.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MASConstraintMaker.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MASLayoutConstraint.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Masonry.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MASUtilities.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MASViewAttribute.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MASViewConstraint.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:NSArray+MASAdditions.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:NSArray+MASShorthandAdditions.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:NSLayoutConstraint+MASDebugAdditions.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:View+MASAdditions.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:View+MASShorthandAdditions.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ViewController+MASAdditions.h">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:Public"
+                  name = "Public">
+                  <Group
+                     location = "group:HXTool"
+                     name = "HXTool">
+                     <FileRef
+                        location = "group:HXButtonTool.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:HXColorTool.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:HXScreenTool.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:HXTool.h">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Masonry"
+                     name = "Masonry">
+                     <FileRef
+                        location = "group:MASCompositeConstraint.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MASConstraint+Private.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MASConstraint.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MASConstraintMaker.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MASLayoutConstraint.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Masonry.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MASUtilities.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MASViewAttribute.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MASViewConstraint.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:NSArray+MASAdditions.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:NSArray+MASShorthandAdditions.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:NSLayoutConstraint+MASDebugAdditions.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:View+MASAdditions.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:View+MASShorthandAdditions.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ViewController+MASAdditions.h">
+                     </FileRef>
+                  </Group>
+               </Group>
+            </Group>
+            <Group
+               location = "group:HXTool"
+               name = "HXTool">
+               <Group
+                  location = "group:HXTool"
+                  name = "HXTool">
+                  <Group
+                     location = "group:Classes"
+                     name = "Classes">
+                     <FileRef
+                        location = "group:HXButtonTool.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:HXButtonTool.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:HXColorTool.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:HXColorTool.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:HXScreenTool.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:HXScreenTool.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:HXTool.h">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Local Podspecs"
+               name = "Local Podspecs">
+            </Group>
+            <FileRef
+               location = "group:Manifest.lock">
+            </FileRef>
+            <Group
+               location = "group:Masonry"
+               name = "Masonry">
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:Masonry"
+                  name = "Masonry">
+                  <FileRef
+                     location = "group:MASCompositeConstraint.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MASCompositeConstraint.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MASConstraint+Private.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MASConstraint.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MASConstraint.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MASConstraintMaker.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MASConstraintMaker.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MASLayoutConstraint.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MASLayoutConstraint.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Masonry.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MASUtilities.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MASViewAttribute.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MASViewAttribute.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MASViewConstraint.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MASViewConstraint.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSArray+MASAdditions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSArray+MASAdditions.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSArray+MASShorthandAdditions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSLayoutConstraint+MASDebugAdditions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSLayoutConstraint+MASDebugAdditions.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:View+MASAdditions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:View+MASAdditions.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:View+MASShorthandAdditions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ViewController+MASAdditions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ViewController+MASAdditions.m">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Pods.xcodeproj">
+            </FileRef>
+            <Group
+               location = "group:Target Support Files"
+               name = "Target Support Files">
+               <Group
+                  location = "group:HXTool"
+                  name = "HXTool">
+                  <FileRef
+                     location = "group:HXTool-dummy.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:HXTool-prefix.pch">
+                  </FileRef>
+                  <FileRef
+                     location = "group:HXTool.xcconfig">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Masonry"
+                  name = "Masonry">
+                  <FileRef
+                     location = "group:Masonry-dummy.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Masonry-prefix.pch">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Masonry.xcconfig">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Pods-GroupOpacity"
+                  name = "Pods-GroupOpacity">
+                  <FileRef
+                     location = "group:Pods-GroupOpacity-acknowledgements.markdown">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-GroupOpacity-acknowledgements.plist">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-GroupOpacity-dummy.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-GroupOpacity-frameworks.sh">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-GroupOpacity-resources.sh">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-GroupOpacity.debug.xcconfig">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-GroupOpacity.release.xcconfig">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+      </Group>
+      <Group
          location = "group:ChapterFour/LayerMask"
          name = "LayerMask">
          <Group
