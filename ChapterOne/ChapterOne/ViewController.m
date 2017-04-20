@@ -15,6 +15,8 @@
 
 @implementation ViewController
 
+- (IBAction)changeColor:(id)sender {
+}
 - (UIView *)whiteView {
     if (!_whiteView) {
         _whiteView = [UIView new];

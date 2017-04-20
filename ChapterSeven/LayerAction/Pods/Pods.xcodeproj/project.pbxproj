@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		155C5F4E89BF06443BA2BCDE85C9FD1F /* HXButtonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB59A3AED48AEEF93925CB831B33F7 /* HXButtonTool.m */; };
+		17D300380CA8B9203E2AEA8F0494B894 /* Pods-LayerAction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F2F6C4541F5BDD87FAAB02CE316C0B /* Pods-LayerAction-dummy.m */; };
+		2C6259488595ACA78787F41748C3EF72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		41992F99ECFC8171701E3FD93BE574B2 /* HXTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEE990A7EEFC7829D059E7276EBE245 /* HXTool-dummy.m */; };
+		5426F8CC7D3EF5E49D4C173A197E8B9E /* HXTool.h in Headers */ = {isa = PBXBuildFile; fileRef = BF33A8C88BC1754CB1BEE7DB7EE8012E /* HXTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5804CDB6451934A140EAA4C8106EC907 /* HXScreenTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CD28BA73FCCB961B41D86D275166B20E /* HXScreenTool.m */; };
+		649C61F03927CDF04B2566D4ED003CC1 /* HXColorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6D4DEBAC1EA9CBADB1B6D43AE150C1 /* HXColorTool.m */; };
+		71B6828AD44FB00081994F18DBDE13F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		8878AD82CDC359E29AEDE8716ECAA0A9 /* HXButtonTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF13D933654D9B9FC4469D5BEF2C3D7 /* HXButtonTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		953194C1197D2DFA70EACFD0AE3C2BA4 /* HXColorTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B385F289CB71D1D92C2F37CDAD9B12E /* HXColorTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A52C48F454A3B5E0C1E9EA57EE0312A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		FB6523D6CFFD7960FE1FC524E83DE9C7 /* HXScreenTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 283DC4E21D18E030FDE7EDEF01B6086F /* HXScreenTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6B8E096B024FD718D4E5B0310C74A90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6E341B3683F37E35DD0AF031EA63AA1;
+			remoteInfo = HXTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044DDE3BAD25497A24777D7AB776A7F1 /* HXTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HXTool.xcconfig; sourceTree = "<group>"; };
+		283DC4E21D18E030FDE7EDEF01B6086F /* HXScreenTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HXScreenTool.h; path = HXTool/Classes/HXScreenTool.h; sourceTree = "<group>"; };
+		42CB814BABFFB1E2931C80007FD46B4F /* Pods-LayerAction-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LayerAction-frameworks.sh"; sourceTree = "<group>"; };
+		514BBD1DEA4F05F5758C4BCE583341BA /* HXTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXTool-prefix.pch"; sourceTree = "<group>"; };
+		626913B691DAEDE17043D70C022B0717 /* Pods-LayerAction-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LayerAction-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6B1FD3164E8FCE1B8094D942C255E4EA /* libHXTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHXTool.a; path = libHXTool.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6D4DEBAC1EA9CBADB1B6D43AE150C1 /* HXColorTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HXColorTool.m; path = HXTool/Classes/HXColorTool.m; sourceTree = "<group>"; };
+		7AA93D97635CCF1EE83B4C51455B52FD /* Pods-LayerAction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LayerAction.release.xcconfig"; sourceTree = "<group>"; };
+		7D63F6EFEA9536793130CAD210D4BE1B /* Pods-LayerAction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LayerAction.debug.xcconfig"; sourceTree = "<group>"; };
+		8ADB59A3AED48AEEF93925CB831B33F7 /* HXButtonTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HXButtonTool.m; path = HXTool/Classes/HXButtonTool.m; sourceTree = "<group>"; };
+		8AF13D933654D9B9FC4469D5BEF2C3D7 /* HXButtonTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HXButtonTool.h; path = HXTool/Classes/HXButtonTool.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93C6865D60E7DA8772C34375E6C30F2E /* Pods-LayerAction-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LayerAction-resources.sh"; sourceTree = "<group>"; };
+		9B385F289CB71D1D92C2F37CDAD9B12E /* HXColorTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HXColorTool.h; path = HXTool/Classes/HXColorTool.h; sourceTree = "<group>"; };
+		9BEE990A7EEFC7829D059E7276EBE245 /* HXTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HXTool-dummy.m"; sourceTree = "<group>"; };
+		B5F2F6C4541F5BDD87FAAB02CE316C0B /* Pods-LayerAction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LayerAction-dummy.m"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BF33A8C88BC1754CB1BEE7DB7EE8012E /* HXTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HXTool.h; path = HXTool/Classes/HXTool.h; sourceTree = "<group>"; };
+		CD28BA73FCCB961B41D86D275166B20E /* HXScreenTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HXScreenTool.m; path = HXTool/Classes/HXScreenTool.m; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EF5E9AEE665D859ADE280403BB62BB31 /* libPods-LayerAction.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LayerAction.a"; path = "libPods-LayerAction.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F7166466179FF8046596606C0CCB6E /* Pods-LayerAction-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LayerAction-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3279A7217B26858D076582F2A4746D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6259488595ACA78787F41748C3EF72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50BF727282D17326A8CE74D4E7C8BC5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52C48F454A3B5E0C1E9EA57EE0312A3 /* Foundation.framework in Frameworks */,
+				71B6828AD44FB00081994F18DBDE13F6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1884C4744091693554DBB4535E0924F1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FA137D512732586137B226FC1D71E42 /* Pods-LayerAction */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3F6ADD7710513EDB74E09FF2E65F34A3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				044DDE3BAD25497A24777D7AB776A7F1 /* HXTool.xcconfig */,
+				9BEE990A7EEFC7829D059E7276EBE245 /* HXTool-dummy.m */,
+				514BBD1DEA4F05F5758C4BCE583341BA /* HXTool-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HXTool";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5C37F6B04959BB47374C745EF9DCC425 /* HXTool */ = {
+			isa = PBXGroup;
+			children = (
+				8AF13D933654D9B9FC4469D5BEF2C3D7 /* HXButtonTool.h */,
+				8ADB59A3AED48AEEF93925CB831B33F7 /* HXButtonTool.m */,
+				9B385F289CB71D1D92C2F37CDAD9B12E /* HXColorTool.h */,
+				6E6D4DEBAC1EA9CBADB1B6D43AE150C1 /* HXColorTool.m */,
+				283DC4E21D18E030FDE7EDEF01B6086F /* HXScreenTool.h */,
+				CD28BA73FCCB961B41D86D275166B20E /* HXScreenTool.m */,
+				BF33A8C88BC1754CB1BEE7DB7EE8012E /* HXTool.h */,
+				3F6ADD7710513EDB74E09FF2E65F34A3 /* Support Files */,
+			);
+			name = HXTool;
+			path = HXTool;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				FE171BEB3220807A47C47E652F040640 /* Pods */,
+				C8C9284461C73D44C5F73FF566942857 /* Products */,
+				1884C4744091693554DBB4535E0924F1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8FA137D512732586137B226FC1D71E42 /* Pods-LayerAction */ = {
+			isa = PBXGroup;
+			children = (
+				626913B691DAEDE17043D70C022B0717 /* Pods-LayerAction-acknowledgements.markdown */,
+				F2F7166466179FF8046596606C0CCB6E /* Pods-LayerAction-acknowledgements.plist */,
+				B5F2F6C4541F5BDD87FAAB02CE316C0B /* Pods-LayerAction-dummy.m */,
+				42CB814BABFFB1E2931C80007FD46B4F /* Pods-LayerAction-frameworks.sh */,
+				93C6865D60E7DA8772C34375E6C30F2E /* Pods-LayerAction-resources.sh */,
+				7D63F6EFEA9536793130CAD210D4BE1B /* Pods-LayerAction.debug.xcconfig */,
+				7AA93D97635CCF1EE83B4C51455B52FD /* Pods-LayerAction.release.xcconfig */,
+			);
+			name = "Pods-LayerAction";
+			path = "Target Support Files/Pods-LayerAction";
+			sourceTree = "<group>";
+		};
+		C8C9284461C73D44C5F73FF566942857 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B1FD3164E8FCE1B8094D942C255E4EA /* libHXTool.a */,
+				EF5E9AEE665D859ADE280403BB62BB31 /* libPods-LayerAction.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE171BEB3220807A47C47E652F040640 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C37F6B04959BB47374C745EF9DCC425 /* HXTool */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		042684DE1D564D47B9AC3FCE575187A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8878AD82CDC359E29AEDE8716ECAA0A9 /* HXButtonTool.h in Headers */,
+				953194C1197D2DFA70EACFD0AE3C2BA4 /* HXColorTool.h in Headers */,
+				FB6523D6CFFD7960FE1FC524E83DE9C7 /* HXScreenTool.h in Headers */,
+				5426F8CC7D3EF5E49D4C173A197E8B9E /* HXTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A3E1F10DD17E541F70C1F321A32DDDB6 /* Pods-LayerAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1699001D7F940DA9B2BFA2EA8E8C0187 /* Build configuration list for PBXNativeTarget "Pods-LayerAction" */;
+			buildPhases = (
+				AEDAF979781B8C8DD2B363543A4F2873 /* Sources */,
+				3279A7217B26858D076582F2A4746D83 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC00FAA3CA0092736958766F46B7A1E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-LayerAction";
+			productName = "Pods-LayerAction";
+			productReference = EF5E9AEE665D859ADE280403BB62BB31 /* libPods-LayerAction.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C6E341B3683F37E35DD0AF031EA63AA1 /* HXTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F30A9153BC03CF2DF3D281F2FF11A53 /* Build configuration list for PBXNativeTarget "HXTool" */;
+			buildPhases = (
+				B197E094DC82B6921468240082691CB9 /* Sources */,
+				50BF727282D17326A8CE74D4E7C8BC5B /* Frameworks */,
+				042684DE1D564D47B9AC3FCE575187A1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXTool;
+			productName = HXTool;
+			productReference = 6B1FD3164E8FCE1B8094D942C255E4EA /* libHXTool.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C8C9284461C73D44C5F73FF566942857 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6E341B3683F37E35DD0AF031EA63AA1 /* HXTool */,
+				A3E1F10DD17E541F70C1F321A32DDDB6 /* Pods-LayerAction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEDAF979781B8C8DD2B363543A4F2873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D300380CA8B9203E2AEA8F0494B894 /* Pods-LayerAction-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B197E094DC82B6921468240082691CB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155C5F4E89BF06443BA2BCDE85C9FD1F /* HXButtonTool.m in Sources */,
+				649C61F03927CDF04B2566D4ED003CC1 /* HXColorTool.m in Sources */,
+				5804CDB6451934A140EAA4C8106EC907 /* HXScreenTool.m in Sources */,
+				41992F99ECFC8171701E3FD93BE574B2 /* HXTool-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC00FAA3CA0092736958766F46B7A1E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HXTool;
+			target = C6E341B3683F37E35DD0AF031EA63AA1 /* HXTool */;
+			targetProxy = A6B8E096B024FD718D4E5B0310C74A90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		53C387BAFC8A0E8F447DF8D59F457A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 044DDE3BAD25497A24777D7AB776A7F1 /* HXTool.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HXTool/HXTool-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C78E57AC868F79A6093F84031DD72BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D63F6EFEA9536793130CAD210D4BE1B /* Pods-LayerAction.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DE505D1C53E1BACD500801C99173C251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 044DDE3BAD25497A24777D7AB776A7F1 /* HXTool.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HXTool/HXTool-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F92FA27F443BC44501A18F05E628F7EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AA93D97635CCF1EE83B4C51455B52FD /* Pods-LayerAction.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1699001D7F940DA9B2BFA2EA8E8C0187 /* Build configuration list for PBXNativeTarget "Pods-LayerAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78E57AC868F79A6093F84031DD72BAE /* Debug */,
+				F92FA27F443BC44501A18F05E628F7EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F30A9153BC03CF2DF3D281F2FF11A53 /* Build configuration list for PBXNativeTarget "HXTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE505D1C53E1BACD500801C99173C251 /* Debug */,
+				53C387BAFC8A0E8F447DF8D59F457A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */,
+				AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

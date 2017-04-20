@@ -3,6 +3,208 @@
    version = "1.0">
    <Group
       location = "container:"
+      name = "ChapterSeven">
+      <Group
+         location = "group:ChapterSeven/LayerAction"
+         name = "LayerAction">
+         <Group
+            location = "group:LayerAction"
+            name = "LayerAction">
+            <FileRef
+               location = "group:AppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <Group
+               location = "group:Assets.xcassets"
+               name = "Assets.xcassets">
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:Base.lproj"
+               name = "Base.lproj">
+               <FileRef
+                  location = "group:LaunchScreen.storyboard">
+               </FileRef>
+               <FileRef
+                  location = "group:Main.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:LayerAction.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:LayerAction.xcworkspace">
+         </FileRef>
+         <FileRef
+            location = "group:Podfile">
+         </FileRef>
+         <FileRef
+            location = "group:Podfile.lock">
+         </FileRef>
+         <Group
+            location = "group:Pods"
+            name = "Pods">
+            <Group
+               location = "group:Headers"
+               name = "Headers">
+               <Group
+                  location = "group:Private"
+                  name = "Private">
+                  <Group
+                     location = "group:HXTool"
+                     name = "HXTool">
+                     <FileRef
+                        location = "group:HXButtonTool.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:HXColorTool.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:HXScreenTool.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:HXTool.h">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:Public"
+                  name = "Public">
+                  <Group
+                     location = "group:HXTool"
+                     name = "HXTool">
+                     <FileRef
+                        location = "group:HXButtonTool.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:HXColorTool.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:HXScreenTool.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:HXTool.h">
+                     </FileRef>
+                  </Group>
+               </Group>
+            </Group>
+            <Group
+               location = "group:HXTool"
+               name = "HXTool">
+               <Group
+                  location = "group:HXTool"
+                  name = "HXTool">
+                  <Group
+                     location = "group:Classes"
+                     name = "Classes">
+                     <FileRef
+                        location = "group:HXButtonTool.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:HXButtonTool.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:HXColorTool.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:HXColorTool.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:HXScreenTool.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:HXScreenTool.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:HXTool.h">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Local Podspecs"
+               name = "Local Podspecs">
+            </Group>
+            <FileRef
+               location = "group:Manifest.lock">
+            </FileRef>
+            <FileRef
+               location = "group:Pods.xcodeproj">
+            </FileRef>
+            <Group
+               location = "group:Target Support Files"
+               name = "Target Support Files">
+               <Group
+                  location = "group:HXTool"
+                  name = "HXTool">
+                  <FileRef
+                     location = "group:HXTool-dummy.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:HXTool-prefix.pch">
+                  </FileRef>
+                  <FileRef
+                     location = "group:HXTool.xcconfig">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Pods-LayerAction"
+                  name = "Pods-LayerAction">
+                  <FileRef
+                     location = "group:Pods-LayerAction-acknowledgements.markdown">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-LayerAction-acknowledgements.plist">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-LayerAction-dummy.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-LayerAction-frameworks.sh">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-LayerAction-resources.sh">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-LayerAction.debug.xcconfig">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-LayerAction.release.xcconfig">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+      </Group>
+   </Group>
+   <Group
+      location = "container:"
       name = "ChapterSix">
       <Group
          location = "group:ChapterSix/CAReplicatorLayer"
