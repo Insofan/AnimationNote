@@ -3,6 +3,175 @@
    version = "1.0">
    <Group
       location = "container:"
+      name = "ChapterEighth">
+      <Group
+         location = "group:ChapterEighth/CAKeyframeAnimation"
+         name = "CAKeyframeAnimation">
+         <Group
+            location = "group:CAKeyframeAnimation"
+            name = "CAKeyframeAnimation">
+            <FileRef
+               location = "group:AppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <Group
+               location = "group:Assets.xcassets"
+               name = "Assets.xcassets">
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:Base.lproj"
+               name = "Base.lproj">
+               <FileRef
+                  location = "group:LaunchScreen.storyboard">
+               </FileRef>
+               <FileRef
+                  location = "group:Main.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:CAKeyframeAnimation.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:ChapterEighth/Clock"
+         name = "Clock">
+         <Group
+            location = "group:Clock"
+            name = "Clock">
+            <FileRef
+               location = "group:AppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <Group
+               location = "group:Assets.xcassets"
+               name = "Assets.xcassets">
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:ClockFace.imageset"
+                  name = "ClockFace.imageset">
+                  <FileRef
+                     location = "group:ClockFace.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ClockFace@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <Group
+                  location = "group:Digits.imageset"
+                  name = "Digits.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Digits.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:HourHand.imageset"
+                  name = "HourHand.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:HourHand.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:HourHand@2x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:MinuteHand.imageset"
+                  name = "MinuteHand.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MinuteHand.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MinuteHand@2x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:SecondHand.imageset"
+                  name = "SecondHand.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SecondHand.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SecondHand@2x.png">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:Base.lproj"
+               name = "Base.lproj">
+               <FileRef
+                  location = "group:LaunchScreen.storyboard">
+               </FileRef>
+               <FileRef
+                  location = "group:Main.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Clock.xcodeproj">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "container:"
       name = "ChapterSeven">
       <Group
          location = "group:ChapterSeven/Transactions"
