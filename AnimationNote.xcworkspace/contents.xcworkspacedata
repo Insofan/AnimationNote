@@ -5,6 +5,72 @@
       location = "container:"
       name = "ChapterEighth">
       <Group
+         location = "group:ChapterEighth/UIBezier"
+         name = "UIBezier">
+         <Group
+            location = "group:UIBezier"
+            name = "UIBezier">
+            <FileRef
+               location = "group:AppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <Group
+               location = "group:Assets.xcassets"
+               name = "Assets.xcassets">
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <Group
+                  location = "group:Ship.imageset"
+                  name = "Ship.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Ship.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Ship@2x.png">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:Base.lproj"
+               name = "Base.lproj">
+               <FileRef
+                  location = "group:LaunchScreen.storyboard">
+               </FileRef>
+               <FileRef
+                  location = "group:Main.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:UIBezier.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
          location = "group:ChapterEighth/CAKeyframeAnimation"
          name = "CAKeyframeAnimation">
          <Group
