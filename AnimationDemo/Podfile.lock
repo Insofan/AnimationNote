@@ -1,0 +1,18 @@
+PODS:
+  - HXTool (0.1.2)
+  - Masonry (1.0.2)
+  - MyLayout (1.3.5)
+
+DEPENDENCIES:
+  - HXTool
+  - Masonry
+  - MyLayout
+
+SPEC CHECKSUMS:
+  HXTool: 2a61e9bf07c6794c17b03c289944d1cbe5f8c332
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MyLayout: ce7576c6418ba8a5dbf36acc101b1cc4119df57a
+
+PODFILE CHECKSUM: a290f0eee3c78e2463c22ba47ab8410289615a6f
+
+COCOAPODS: 1.1.0.rc.3

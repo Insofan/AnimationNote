@@ -1,0 +1,16 @@
+//
+//  Header.pch
+//  AnimationDemo
+//
+//  Created by 海啸 on 2017/4/28.
+//  Copyright © 2017年 海啸. All rights reserved.
+//
+
+#ifndef Header_pch
+#define Header_pch
+#import <HXTool.h>
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Masonry.h>
+#import <MyLayout.h>
+#endif /* Header_pch */
