@@ -15,6 +15,9 @@
 		AF158ED31EB2515B00FF5BBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF158ED21EB2515B00FF5BBB /* Assets.xcassets */; };
 		AF158ED61EB2515B00FF5BBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF158ED41EB2515B00FF5BBB /* LaunchScreen.storyboard */; };
 		AF3A3DDF1EB34BE700F5EF14 /* TransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3A3DDE1EB34BE700F5EF14 /* TransitionViewController.m */; };
+		AF3A3DE31EB4658600F5EF14 /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3A3DE21EB4658600F5EF14 /* BasicViewController.m */; };
+		AF3A3DE61EB46F5400F5EF14 /* KeyFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3A3DE51EB46F5400F5EF14 /* KeyFrameViewController.m */; };
+		AF3A3DE91EB474B300F5EF14 /* GroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3A3DE81EB474B300F5EF14 /* GroupViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,12 @@
 		AF3A3DDD1EB34BE700F5EF14 /* TransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionViewController.h; sourceTree = "<group>"; };
 		AF3A3DDE1EB34BE700F5EF14 /* TransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionViewController.m; sourceTree = "<group>"; };
 		AF3A3DE01EB3543100F5EF14 /* Header.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.pch; sourceTree = "<group>"; };
+		AF3A3DE11EB4658600F5EF14 /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		AF3A3DE21EB4658600F5EF14 /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		AF3A3DE41EB46F5400F5EF14 /* KeyFrameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyFrameViewController.h; sourceTree = "<group>"; };
+		AF3A3DE51EB46F5400F5EF14 /* KeyFrameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyFrameViewController.m; sourceTree = "<group>"; };
+		AF3A3DE71EB474B300F5EF14 /* GroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupViewController.h; sourceTree = "<group>"; };
+		AF3A3DE81EB474B300F5EF14 /* GroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +101,12 @@
 				AF158ECD1EB2515B00FF5BBB /* ViewController.m */,
 				AF3A3DDD1EB34BE700F5EF14 /* TransitionViewController.h */,
 				AF3A3DDE1EB34BE700F5EF14 /* TransitionViewController.m */,
+				AF3A3DE11EB4658600F5EF14 /* BasicViewController.h */,
+				AF3A3DE21EB4658600F5EF14 /* BasicViewController.m */,
+				AF3A3DE41EB46F5400F5EF14 /* KeyFrameViewController.h */,
+				AF3A3DE51EB46F5400F5EF14 /* KeyFrameViewController.m */,
+				AF3A3DE71EB474B300F5EF14 /* GroupViewController.h */,
+				AF3A3DE81EB474B300F5EF14 /* GroupViewController.m */,
 				AF158ECF1EB2515B00FF5BBB /* Main.storyboard */,
 				AF158ED21EB2515B00FF5BBB /* Assets.xcassets */,
 				AF158ED41EB2515B00FF5BBB /* LaunchScreen.storyboard */,
@@ -233,9 +248,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF3A3DE91EB474B300F5EF14 /* GroupViewController.m in Sources */,
 				AF158ECE1EB2515B00FF5BBB /* ViewController.m in Sources */,
 				AF158ECB1EB2515B00FF5BBB /* AppDelegate.m in Sources */,
 				AF158EC81EB2515B00FF5BBB /* main.m in Sources */,
+				AF3A3DE31EB4658600F5EF14 /* BasicViewController.m in Sources */,
+				AF3A3DE61EB46F5400F5EF14 /* KeyFrameViewController.m in Sources */,
 				AF3A3DDF1EB34BE700F5EF14 /* TransitionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

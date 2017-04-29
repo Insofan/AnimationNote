@@ -32,7 +32,7 @@
     flow.bottomPos.equalTo(self.view.bottomPos);
     flow.wrapContentHeight = true;
     flow.myWidth = [UIScreen screenWidth];
-    flow.padding = UIEdgeInsetsMake(10, 50, 10, 50);
+    flow.padding = UIEdgeInsetsMake(10, 50, 30, 50);
     flow.gravity = MyGravity_Horz_Fill;
     flow.subviewSpace = 10;
     

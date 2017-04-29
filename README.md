@@ -9,3 +9,14 @@ iOS动画的练习笔记，其中chapter1-chapter8是以前阅读[iOS Core Anima
 
 ![CTuwV.gif](http://i4.buimg.com/4851/a24a2207cc2e40f7.gif)
 
+#### 2.基础动画
+
+![CTuwV.gif](http://i2.muimg.com/4851/f1cd89e696233d5f.gif)
+
+#### 3.关键帧动画
+
+![CTuwV.gif](http://i2.muimg.com/4851/9978b1daf1fc722b.gif)
+
+#### 4.组动画
+
+![CTuwV.gif](http://i2.muimg.com/4851/d4f26e217a53a70a.gif)
